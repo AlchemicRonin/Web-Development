@@ -1,0 +1,63 @@
+body{
+    text-align: center;
+    background: #98d8d2;
+    font-family: ".PingFang SC", Arial, sans-serif;
+}
+#mainPart{
+    background: #fbfbfb;
+    width: 65%;
+    margin: 0 auto 0;
+    padding: 1rem 2rem 2rem;
+    border-radius: 1rem;
+    color: #404040;
+}
+#description{
+    font-size: 1.3rem;
+}
+.rowPart{
+    margin: 1.5rem;
+}
+.leftPart{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    padding-right: 0.8rem;
+}
+.rightPart{
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+.input-field{
+    height: 1.5rem;
+    width: 70%;
+    border-radius: 0.3rem;
+    border: 1px solid #c0c0c0;
+    padding: 0.1rem 0 0.1rem 0.6rem;
+}
+.select-field{
+    width: 70%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: 1px solid #c0c0c0;
+}
+.check-field{
+    position: relative;
+    left: -44px;
+    top: -15px;
+}
+#suggestion{
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
+#submit{
+    background: #59ace0;
+    border: 1px solid #c0c0c0;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    color: snow;
+}

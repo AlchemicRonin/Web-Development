@@ -1,0 +1,74 @@
+html{
+    font-family: ".萍方-简", monospace;
+    font-size: 15px;
+    text-align: center;
+}
+main{
+    color: #333;
+    background-color: #eee;
+    margin: 20px 10px;
+    border-radius: 15px;
+}
+@media (max-width: 460px) {
+    main{
+        margin: 0;
+    }
+}
+#title{
+    color: #CE0000;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+@media (max-width: 460px) {
+    #title{
+        font-size: 30px;
+    }
+}
+.description{
+    color: #8E8E8E;
+    padding: 5px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+img:hover{
+    animation-name: expand;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes expand {
+    50%{
+        transform: scale(0.8);
+    }
+}
+section{
+    text-align: left;
+    padding: 20px;
+}
+ul{
+    padding: 50px;
+    background-color: snow;
+    border-radius: 30px;
+}
+@media (max-width: 460px) {
+    section{
+        padding: 10px;
+    }
+    ul{
+        padding: 0;
+    }
+}
+footer{
+    font-style: italic;
+}
+a:visited{
+    color: #000079;
+}
+strong{
+    font-size: 25px;
+}

@@ -1,0 +1,171 @@
+body{
+    font-family: ".PingFang SC", sans-serif;
+    background: #eee;
+    margin: 0;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eee;
+    width: 100%;
+    top: 0;
+    max-height: 5rem;
+    z-index: 2;
+}
+header > img{
+    height: auto;
+    width: 20rem;
+    position: relative;
+    left: 3rem;
+}
+header > nav > ul{
+    list-style: none;
+    display: flex;
+}
+header > nav > ul > li{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+header > nav > ul > li >a{
+    color: #000;
+    text-decoration: none;
+}@media screen and (max-width: 700px){
+    header > nav > ul > li{
+        padding: 0 0.5rem 0 0.5rem;
+    }
+}
+@media screen and (max-width: 650px){
+    header > nav > ul{
+        flex-direction: column;
+    }
+}
+main{
+    padding-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > section > h2{
+    text-align: center;
+    font-size: 2rem;
+}
+@media screen and (max-width: 495px){
+    header{
+        flex-direction: column;
+    }
+    header > img{
+        left: 0;
+    }
+    main{
+        padding-top: 6rem;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email{
+    max-width: 15rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    border: 2px solid #a8a8a8
+}
+#submit{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 0.3rem 1rem;
+    background: #f1c40f;
+    border-radius: 0.5rem;
+    border: 0;
+}
+#submit:hover{
+    background: orange;
+    transition: 1s;
+}
+.inform{
+    padding: 0 15%;
+}
+.detail{
+    font-weight: 300;
+}
+#how-it-works{
+    margin: 2rem 0;
+    max-width: 560px;
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+#pricing{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+    width: 30%;
+    text-align: center;
+}
+.product ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+.product div{
+    padding: 0.5rem 0;
+    width: 100%;
+    background: #dddddd;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    text-transform: uppercase;
+}
+#pricing h2{
+    margin: 1rem;
+}
+button{
+    background: #f1c40f;
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    border: 0 solid;
+    border-radius: 0.5rem;
+}
+button:hover{
+    background: orange;
+    transition: 1s;
+}
+footer{
+    background: #dddddd;
+    padding: 1rem;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer ul li a{
+    padding: 0 0.5rem;
+    color: #000;
+    text-decoration: none;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #444;
+}
