@@ -22,7 +22,7 @@ body {
   padding: 4px 4px 3px 3px;
   border: 1px solid #1d2f2f;
   box-shadow: 1px 1px 10px 2px #3a5f5f;
-  font-family: Russo One;
+  font-family: Russo One, sans-serif;
   font-size: 15px;
 }
 .toolbar i {
