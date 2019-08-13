@@ -1,0 +1,62 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FilePathRelativeToProjectRoot$ --out-dir dist --presets @babel/preset-react" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="jsx" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="Babel" />
+    <option name="output" value="dist\$FileDirRelativeToProjectRoot$\$FileNameWithoutExtension$.js" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="$PROJECT_DIR$/node_modules/.bin/babel" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="Project Files" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="--style expanded --no-cache --update --sourcemap=none $FileName$:dist/$FileNameWithoutExtension$.css" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="scss" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="SCSS" />
+    <option name="output" value="$FileNameWithoutExtension$.css" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="sass" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="Project Files" />
+    <option name="trackOnlyRoot" value="true" />
+    <option name="workingDir" value="$FileDir$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FileName$ ./dist/$FileNameWithoutExtension$.html" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="haml" />
+    <option name="immediateSync" value="true" />
+    <option name="name" value="Haml" />
+    <option name="output" value="$FileNameWithoutExtension$.html" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="haml" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="Project Files" />
+    <option name="trackOnlyRoot" value="true" />
+    <option name="workingDir" value="$FileDir$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>
