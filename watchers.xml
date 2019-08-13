@@ -40,7 +40,7 @@
     <envs />
   </TaskOptions>
   <TaskOptions>
-    <option name="arguments" value="$FileName$ ./dist/$FileNameWithoutExtension$.html" />
+    <option name="arguments" value="-q $FileName$ ./dist/$FileNameWithoutExtension$.html" />
     <option name="checkSyntaxErrors" value="true" />
     <option name="description" />
     <option name="exitCodeBehavior" value="ERROR" />

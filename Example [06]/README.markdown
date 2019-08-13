@@ -1,5 +1,5 @@
 # FCC : Random Quote Machine
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/killerlist/pen/oKYPrX](https://codepen.io/killerlist/pen/oKYPrX).
+ _A Pen created at CodePen.io. Original URL: [https://codepen.io/MaverickNone/pen/oKYPrX](https://codepen.io/MaverickNone/pen/oKYPrX).
 
  Show random quotes using "Random Famous Quotes" API
 (https://www.mashape.com/andruxnet/random-famous-quotes)

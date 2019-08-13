@@ -1,7 +1,7 @@
 
 
 <!--
-Copyright (c) 2019 by killerlist (https://codepen.io/killerlist/pen/MNbqNz)
+Copyright (c) 2019 by MaverickNone (https://codepen.io/MaverickNone/pen/MNbqNz)
 
 
 Fork of an original work by freeCodeCamp (https://codepen.io/freeCodeCamp/pen/XpKrrW)

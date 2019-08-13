@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+@import url("https://fonts.font.im/css?family=Quantico");
+body {
+  background: url("https://i.loli.net/2019/08/14/GSTWDn2sqt3YL17.jpg") fixed;
+  background-size: 100%;
+}
+
+.colorScheme, .editorWrap textarea, .previewWrap {
+  background-color: #b6bfda;
+  box-shadow: 1px 1px 15px 8px #313d60;
+  border-top-style: none;
+}
+
+.toolbar {
+  position: relative;
+  background-color: #6af5f9;
+  padding: 4px 4px 3px 3px;
+  border: 1px solid #171d2d;
+  box-shadow: 1px 1px 15px 8px #313d60;
+  font-family: Russo One, sans-serif;
+  font-size: 15px;
+}
+.toolbar i {
+  width: 25px;
+  color: black;
+  margin-left: 5px;
+}
+.toolbar .fa-compress,
+.toolbar .fa-expand {
+  position: absolute;
+  right: -5px;
+}
+
+.fa-compress:hover,
+.fa-expand:hover {
+  animation: btn 0.5s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+@keyframes btn {
+  100% {
+    color: #57e2b1;
+  }
+}
+.fa-chess {
+  margin-right: 3px;
+}
+
+.editorWrap {
+  width: 600px;
+  margin: 18px auto;
+}
+.editorWrap .toolbar {
+  position: relative;
+  right: 18px;
+  width: 100%;
+  padding-right: 36px;
+  border-radius: 5px;
+}
+.editorWrap textarea {
+  width: 98.5%;
+  padding-left: 1vw;
+  min-height: 60vh;
+  margin-bottom: -5px;
+  resize: vertical;
+  outline: none;
+  padding-top: 5px;
+  font-family: Quantico, sans-serif;
+  font-size: 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.editorWrap textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.previewWrap {
+  width: 800px;
+  margin: 20px auto;
+  overflow-wrap: break-word;
+  padding-right: 20px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.previewWrap .toolbar {
+  position: relative;
+  right: 12px;
+  width: 100%;
+  padding-right: 36px;
+  border-radius: 5px;
+}
+.previewWrap #preview {
+  margin-left: 5px;
+  margin-top: -10px;
+  width: 98.5%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 1vw;
+}
+
+@media screen and (max-width: 850px) {
+  .previewWrap {
+    width: 630px;
+  }
+
+  .editorWrap {
+    width: 550px;
+  }
+}
+.maximized {
+  width: 90%;
+  min-height: 90vh;
+  margin: auto;
+}
+.maximized textarea {
+  min-height: 90vh;
+  resize: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  body {
+    margin: 5px 0;
+  }
+
+  .editorWrap {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .maximized {
+    width: 90%;
+    margin: auto;
+  }
+
+  .previewWrap {
+    width: 90vw;
+  }
+  .previewWrap #preview {
+    width: 100%;
+  }
+  .previewWrap #preview img {
+    height: 200px;
+  }
+}
+#preview blockquote {
+  border-left: 3px solid #224b4b;
+  color: #224b4b;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+#preview code {
+  background: rgba(9, 250, 255, 0.31);
+  padding: 1px 4px 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+#preview pre {
+  background: white;
+  padding: 5px 0 5px 5px;
+}
+#preview h1 {
+  border-bottom: 2px solid #09d5da;
+}
+#preview h2 {
+  border-bottom: 1px solid #09d5da;
+}
+#preview table {
+  border-collapse: collapse;
+}
+#preview td,
+#preview th {
+  border: 2px solid #09d5da;
+  padding-left: 5px;
+  padding-right: 5px;
+}

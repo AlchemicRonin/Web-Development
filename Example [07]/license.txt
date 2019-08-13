@@ -1,10 +1,10 @@
 
 
 <!--
-Copyright (c) 2019 by MaverickNone (https://codepen.io/MaverickNone/pen/oKYPrX)
+Copyright (c) 2019 by MaverickNone (https://codepen.io/MaverickNone/pen/NQbLZX)
 
 
-Fork of an original work by freeCodeCamp (https://codepen.io/freeCodeCamp/pen/qRZeGZ)
+Fork of an original work by freeCodeCamp (https://codepen.io/freeCodeCamp/pen/GrZVVO)
 
 
 
